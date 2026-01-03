@@ -1,0 +1,15 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Kanit:wght@500&family=Playfair+Display:ital@1&display=swap');
+
+
+
+
+.font-1{
+ font-family: 'Dosis', sans-serif;
+}
+
+.font-2{
+    font-family: 'Playfair Display', serif;
+}
+.font-3{
+    font-family: 'Kanit', sans-serif;
+}

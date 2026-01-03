@@ -1,0 +1,19 @@
+/* .bottomBar{
+
+} */
+[data-theme="dark"] .bottomBar{
+    /* background-color:rgba(16,16,18,.6); */
+    background-color:red;
+}
+
+.active{
+    color: hsl(150, 84%, 67%);
+    border-bottom:2px solid hsl(150, 84%, 67%);
+}
+
+.hero-section-1{
+    /* height: 60vh; */
+    overflow: hidden;
+}
+
+
