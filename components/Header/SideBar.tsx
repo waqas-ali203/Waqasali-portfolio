@@ -59,7 +59,7 @@ export default function Bottombar() {
                         className="text-2xl font-bold text-foreground hover:text-primary transition-colors group"
                     >
                         <span className="group-hover:drop-shadow-[0_0_5px_rgba(0,0,0,0.2)] transition-all">
-                            U.
+                            W.
                         </span>
                     </Link>
 
