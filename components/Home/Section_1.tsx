@@ -26,7 +26,7 @@ export default function Section_1({ contributions }: { contributions: number }) 
         {/* Stats Section */}
         <div className="flex justify-center md:justify-start space-x-12 sm:space-x-24 py-6">
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-blue-600">3+</div>
+            <div className="text-4xl md:text-5xl font-bold text-blue-600">2+</div>
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Years of <br /> Experience
             </p>
@@ -52,7 +52,7 @@ export default function Section_1({ contributions }: { contributions: number }) 
           transition-all duration-300
           transform hover:scale-105 flex items-center gap-2bg-blue-600 text-whitepx-6 rounded-lgtext-base font-semiboldshadow-md hover:shadow-xlhover:bg-blue-700transition-all">
             <Download size={20} />
-            View My CV
+            Download Resume
           </a>
         </div>
 

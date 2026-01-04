@@ -11,10 +11,10 @@ import Canvas from '@/components/canvas';
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://usmandev.vercel.app'),
+  metadataBase: new URL('https://waqasthedev.com'),
   title: {
-    default: "Muhammad Usman | Software Engineer | Full Stack Developer",
-    template: "%s | Muhammad Usman | Software Engineer"
+    default: "Waqas Ali | Software Engineer | Full Stack Developer",
+    template: "%s | Waqas Ali | Software Engineer"
   },
   description: "Expert Full Stack Developer creating innovative web solutions with cutting-edge MERN stack technologies. Transform your digital vision into reality.",
   keywords: [
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     "JavaScript",
     "TypeScript"
   ],
-  authors: [{ name: "Muhammad Usman" }],
-  creator: "Muhammad Usman",
-  publisher: "Muhammad Usman",
+  authors: [{ name: "Waqas Ali" }],
+  creator: "Waqas Ali",
+  publisher: "Waqas Ali",
   robots: {
     index: true,
     follow: true,
@@ -45,10 +45,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://usmandev.vercel.app',
-    title: "Muhammad Usman | Software Engineer",
+    url: 'https://waqasthedev.com',
+    title: "Waqas Ali | Software Engineer",
     description: "Full Stack Developer crafting innovative web solutions",
-    siteName: "Muhammad Usman Portfolio",
+    siteName: "Waqas Ali Portfolio",
     images: [
       {
         url: '/og-image.jpg',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Muhammad Usman | Software Engineer",
+    title: "Waqas Ali | Software Engineer",
     description: "Full Stack Developer | Innovative Web Solutions",
     images: ['/twitter-image.jpg']
   }, verification: {

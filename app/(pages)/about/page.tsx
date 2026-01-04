@@ -18,11 +18,11 @@ import PagesMainLayout from "@/components/PageMainLayout";
 import PageTitle from "@/components/PageTitle";
 
 export const metadata: Metadata = {
-  title: "Muhammad Usman | Software Engineer & MERN Stack Developer",
+  title: "Waqas Ali | Software Engineer & MERN Stack Developer",
   description:
-    "Discover Muhammad Usman, a passionate software engineer and MERN stack developer. Learn about his expertise in React, Node.js, MongoDB, and other cutting-edge technologies. Find out how he transforms ideas into digital reality.",
+    "Discover Waqas Ali, a passionate software engineer and MERN stack developer. Learn about his expertise in React, Node.js, MongoDB, and other cutting-edge technologies. Find out how he transforms ideas into digital reality.",
   keywords:
-    "Muhammad Usman, MERN Stack Developer, Software Engineer, Web Developer, Full Stack Developer, React Developer, Node.js Expert, MongoDB Developer, Digital Solutions, Software Development",
+    "Waqas Ali, MERN Stack Developer, Software Engineer, Web Developer, Full Stack Developer, React Developer, Node.js Expert, MongoDB Developer, Digital Solutions, Software Development",
   alternates: {
     canonical: "/about",
   },
@@ -33,7 +33,7 @@ function About() {
     <PagesMainLayout>
       <PageTitle
         title="About Me"
-        subtitle="Transforming ideas into digital magic with code. Passionate about MERN stack development and crafting solutions for the modern world."
+        subtitle="I design and build scalable web applications that solve real-world problems. Focused on MERN stack development, clean architecture, and delivering measurable impact through code."
         icon={<User />}
       />
 
@@ -48,8 +48,8 @@ function About() {
               {/* Profile Image */}
               <div className="relative w-32 h-32 md:w-48 md:h-48 mb-4 md:mb-6">
                 <Image
-                  src="/image.png"
-                  alt="Profile picture of Muhammad Usman"
+                  src="/profileimage.jpg"
+                  alt="Profile picture of Waqas Ali"
                   className="rounded-full object-cover border-4 border-gray-100 dark:border-gray-800 shadow-lg"
                   fill
                   priority
@@ -60,7 +60,7 @@ function About() {
               </div>
 
               <h2 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
-                Muhammad Usman
+                Waqas Ali
               </h2>
               <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mb-4">
                 Software Engineer | MERN Stack Developer
@@ -71,17 +71,17 @@ function About() {
                 {[
                   {
                     Icon: AiFillGithub,
-                    href: "https://github.com/UsmanMERN",
+                    href: "https://github.com/waqas-ali203",
                     color: "text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white",
                   },
                   {
                     Icon: AiFillMail,
-                    href: "mailto:usman853136@gmail.com",
+                    href: "mailto:waqasofficial742@gmail.com",
                     color: "text-red-600 hover:text-red-800 dark:text-red-400 dark:hover:text-red-600",
                   },
                   {
                     Icon: AiFillLinkedin,
-                    href: "https://www.linkedin.com/in/mernstack-developers/",
+                    href: "https://www.linkedin.com/in/waqas-ali-software-engineer",
                     color: "text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-600",
                   },
                 ].map(({ Icon, href, color }, index) => (
@@ -102,29 +102,29 @@ function About() {
           {/* About Section */}
           <div className="flex-1 max-w-3xl space-y-6 md:space-y-8">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
-              Hi there! I&apos;m Muhammad Usman
+              Hi there! I&apos;m Waqas Ali
             </h2>
 
             <div className="space-y-4 md:space-y-6">
               {[
                 {
                   icon: CodeIcon,
-                  text: "A passionate software engineer and dedicated MERN stack developer on a mission to transform ideas into reality.",
+                  text: "A results-driven software engineer specializing in MERN stack development, focused on building high-performance and maintainable web applications.",
                 }, {
                   icon: TargetIcon,
-                  text: "With obsessive attention to detail and an unwavering love for crafting digital solutions, I bring dreams to life through code.",
+                  text: "I work with a strong product mindset—turning complex requirements into clean, efficient, and user-focused solutions.",
                 },
                 {
                   icon: GlobeIcon,
-                  text: "I believe a great developer isn't just about writing code but understanding problems, architecting elegant solutions, and continuously learning.",
+                  text: "My approach goes beyond writing code: I analyze problems deeply, design scalable architectures, and continuously refine solutions through learning and iteration.",
                 },
                 {
                   icon: AwardIcon,
-                  text: "Awarded as 'Best Innovator of the Year' for my exceptional work in full-stack development and leading impactful projects.",
+                  text: "Recognized for delivering impactful full-stack projects that improved performance, usability, and overall system reliability.",
                 },
                 {
                   icon: RocketIcon,
-                  text: "Building scalable, secure, and efficient applications is my forte. I'm always seeking new challenges to push the boundaries of technology.",
+                  text: "I enjoy tackling challenging problems, optimizing systems, and building applications that are secure, scalable, and ready for real-world use.",
                 },
                 // ... other description items remain the same
               ].map(({ icon: Icon, text }, index) => (
@@ -142,19 +142,19 @@ function About() {
 
             {/* Blockquote and Skills sections remain similar */}
             <blockquote className="text-lg italic text-gray-600 dark:text-gray-400 border-l-4 pl-4 border-blue-500">
-              &quot;Let&apos;s connect and build something extraordinary together. Turning ideas into digital magic is my passion! ✨&quot;
+              &quot;Great software is built where clear thinking meets clean execution. I&rsquo;m always open to meaningful collaborations.&quot;
             </blockquote>
 
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-12">
               Skills and Expertise
             </h2>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
-              <li>Proficient in React.js, Node.js, Express, and MongoDB (MERN Stack).</li>
-              <li>Experience with modern JavaScript (ES6+) and TypeScript.</li>
-              <li>Skilled in building RESTful APIs and integrating third-party services.</li>
-              <li>Strong knowledge of UI/UX principles and responsive design.</li>
-              <li>Familiar with Git, Docker, and CI/CD pipelines for efficient development workflows.</li>
-              <li>Basic understanding of machine learning and computer vision concepts.</li>
+              <li>Strong expertise in React.js, Node.js, Express, and MongoDB (MERN Stack).</li>
+              <li>Experience building scalable frontends with modern JavaScript (ES6+) and TypeScript.</li>
+              <li>Hands-on experience designing RESTful APIs and integrating third-party services.</li>
+              <li>Solid understanding of responsive design, accessibility, and UI/UX best practices.</li>
+              <li>Comfortable with Git-based workflows, version control, and deployment pipelines.</li>
+              <li>Familiar with performance optimization,security best practices,and basic DevOps concepts.</li>
             </ul>
           </div>
         </div>
@@ -164,10 +164,10 @@ function About() {
         {/* Call to Action */}
         <div className="text-center py-8">
           <p className="text-base md:text-lg text-gray-600 dark:text-gray-300">
-            Interested in collaborating or have a project idea? Let&apos;s make it happen!
+            Have a project, idea, or opportunity in mind? Let&rsquo;s discuss how I can help bring it to life.
           </p>
           <a
-            href="mailto:usman853136@gmail.com"
+            href="mailto:waqasofficial742@gmail.com"
             className="inline-block mt-4 px-4 py-2 md:px-6 md:py-3 bg-blue-600 text-white text-base md:text-lg font-medium rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg transition-transform transform hover:scale-105"
           >
             Get in Touch

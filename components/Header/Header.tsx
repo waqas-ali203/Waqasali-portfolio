@@ -15,7 +15,7 @@ export default function Header() {
               {/* Logo */}
               <div className="group">
                 <Link href={'/'}>
-                  <h1 className="text-2xl font-bold transition-colors duration-300 group-hover:text-primary">U.</h1>
+                  <h1 className="text-2xl font-bold transition-colors duration-300 group-hover:text-primary">W.</h1>
                 </Link>
               </div>
 

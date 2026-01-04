@@ -5,7 +5,7 @@ import PagesMainLayout from '@/components/PageMainLayout';
 export default async function Home() {
   async function getContributions(): Promise<number> {
     try {
-      const response = await fetch('https://api.github.com/users/UsmanMERN', {
+      const response = await fetch('https://api.github.com/users/waqas-ali203', {
         next: { revalidate: 86400 },
       });
       if (!response.ok) throw new Error('Failed to fetch GitHub repositories');

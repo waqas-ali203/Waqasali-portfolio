@@ -16,15 +16,16 @@ interface Repo {
 }
 
 export const metadata: Metadata = {
-  title: "My Coding Portfolio",
-  description: "Innovative web development portfolio showcasing full-stack projects and technical expertise.",
-  keywords: "Software Engineer, Web Developer, Full Stack Developer, React, Node.js, GitHub Projects"
+  title: "GitHub Projects | Waqas Ali",
+  description: "A curated showcase of real-world GitHub projects demonstrating full-stack development, problem-solving skills, and clean engineering practices.",
+  keywords:
+    "GitHub Projects, Software Engineer, Full Stack Developer, MERN Stack Developer, React Developer, Node.js Developer, Web Applications, Portfolio"
 };
 
 const GithubProjects = async () => {
   async function fetchRepos(): Promise<Repo[]> {
     try {
-      const response = await fetch('https://api.github.com/users/UsmanMERN/repos', {
+      const response = await fetch('https://api.github.com/users/waqas-ali203/repos', {
         next: { revalidate: 43200 },
       });
 
@@ -49,7 +50,7 @@ const GithubProjects = async () => {
     <PagesMainLayout>
 
       <PageTitle title="GitHub Projects"
-        subtitle="A curated collection of my most impactful and innovative coding projects."
+        subtitle="A curated selection of real-world projects highlighting my approach to full-stack development, scalability, and clean code."
         icon={<FaGithub />} />
       <div className="my-8 border-t border-gray-300 dark:border-gray-700"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -62,7 +63,7 @@ const GithubProjects = async () => {
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-xl font-semibold text-gray-800 dark:text-white flex items-center gap-2">
                   <FaCode className="text-blue-500" />
-                  {repo.name}
+                  {repo.name.replace(/-/g, " ")}
                 </h3>
                 <a
                   href={repo.html_url}
@@ -75,7 +76,7 @@ const GithubProjects = async () => {
               </div>
 
               <p className="text-gray-600 dark:text-gray-300 mb-4 h-20 overflow-hidden">
-                {repo.description || "No description available"}
+                {repo.description || "Project details and implementation available on GitHub."}
               </p>
 
               <div className="flex justify-between items-center text-sm text-gray-500">
