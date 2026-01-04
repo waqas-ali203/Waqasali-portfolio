@@ -2,16 +2,6 @@ import { Project } from './types';
 
 export const projects: Project[] = [
   {
-    id: '0932840kldsa',
-    title: 'E Learning Mobile App 📱',
-    src: 'E_Learning_Mobile_App.jpg',
-    color: '#EA580C',
-    url: 'https://github.com/UsmanMERN/elearningapp/blob/main/Elearning.apk',
-    tech: ['React-Native','GraphQL', 'Firebase'],
-    about: 'A E Learning Platform where students can enhance their learnings',
-    role: 'Mobile App',
-  },
-  {
     id: '4lkj34256hgfajdfs32',
     title: 'InsightFulDoc-SAAS 🛠️',
     src: 'InsightFulDoc-SAAS.png',

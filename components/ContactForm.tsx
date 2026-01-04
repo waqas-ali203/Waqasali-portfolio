@@ -44,7 +44,7 @@ export default function ContactForm() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
       setIsLoading(true)
-      const response = await fetch("https://formspree.io/f/xbjvpozd", {
+      const response = await fetch("https://formspree.io/f/xbdlpvzy", {
         method: "POST",
         body: JSON.stringify(values),
         headers: {
