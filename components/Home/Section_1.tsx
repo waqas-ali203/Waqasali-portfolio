@@ -43,7 +43,7 @@ export default function Section_1({ contributions }: { contributions: number }) 
 
         {/* CV Button */}
         <div className="flex justify-center md:justify-start">
-          <a href="https://drive.google.com/uc?export=download&id=1--tZhWLI3tDmfd_5EYc_dFFiyquQfaQQ" download="Muhammad_Usman.pdf" className=" gap-2
+          <a href="https://drive.google.com/file/d/1-qPwU7OvsQIIG-tRfFkQxmgb1hL2Wlr5/view?usp=drive_link" download="Muhammad_Usman.pdf" className=" gap-2
           bg-blue-600 text-white
           px-6 py-3 rounded-lg
           text-base font-semibold
