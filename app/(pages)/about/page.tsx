@@ -48,7 +48,7 @@ function About() {
               {/* Profile Image */}
               <div className="relative w-32 h-32 md:w-48 md:h-48 mb-4 md:mb-6">
                 <Image
-                  src="/profileimage.jpg"
+                  src="/profileimage.png"
                   alt="Profile picture of Waqas Ali"
                   className="rounded-full object-cover border-4 border-gray-100 dark:border-gray-800 shadow-lg"
                   fill
