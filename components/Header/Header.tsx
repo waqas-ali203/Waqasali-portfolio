@@ -26,7 +26,6 @@ export default function Header() {
                     { href: '/about', label: 'About' },
                     { href: '/projects', label: 'Projects' },
                     { href: '/tech', label: 'Tech' },
-                    { href: '/github', label: 'Github' },
                     { href: '/contact', label: 'Contact' }
                   ].map((link) => (
                     <li key={link.href} className="group">

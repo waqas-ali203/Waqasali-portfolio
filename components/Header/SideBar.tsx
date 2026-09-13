@@ -31,7 +31,6 @@ export default function Bottombar() {
         { href: '/about', icon: TbBrandBlogger, label: 'About' },
         { href: '/projects', icon: AiOutlineFundProjectionScreen, label: 'Projects' },
         { href: '/tech', icon: TiInfoLargeOutline, label: 'Tech' },
-        { href: '/github', icon: GiTechnoHeart, label: 'Github' },
         { href: '/contact', icon: MdOutlineContactPhone, label: 'Contact' }
     ]
 
