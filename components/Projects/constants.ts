@@ -28,7 +28,7 @@ export const projects: Project[] = [
       'Lucide Icons',
       'Vercel'
     ],
-    about: 'A visually appealing food website with smooth animations and a clean, modern UI.',
+    about: 'An enterprise-grade AI Operations (AIOps) and automation platform featuring intelligent workflow builders, real-time agent monitoring, cost-per-token analytics, and live execution dashboards.',
     role: 'FullStack',
   },
   {
