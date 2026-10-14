@@ -1,0 +1,2 @@
+// Run before the first paint so a saved light theme never flashes dark.
+export const themeBoot = `(function(){var mode='dark';try{var saved=localStorage.getItem('mu-theme');if(saved==='dark'||saved==='light'||saved==='system')mode=saved;}catch(e){}var theme=mode==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):mode;var root=document.documentElement;root.dataset.theme=theme;root.dataset.themeChoice=mode;root.style.colorScheme=theme;})();`;

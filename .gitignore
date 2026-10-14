@@ -1,9 +1,10 @@
 node_modules/
 .next/
 out/
-.env
-.env.local
-.env.production
-npm-debug.log*
-yarn-error.log*
+dist/
+.env*
+!.env.example
+*.tsbuildinfo
 .DS_Store
+artifacts/
+*.log
