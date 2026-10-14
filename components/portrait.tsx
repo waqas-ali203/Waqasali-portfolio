@@ -12,7 +12,7 @@ export function Portrait({ linked = false }: { linked?: boolean }) {
         +
       </div>
       <span className="portrait-watermark" aria-hidden="true">
-        MU
+        WA
       </span>
       <div className="portrait-photo">
         <Image

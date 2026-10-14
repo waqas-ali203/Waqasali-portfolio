@@ -253,7 +253,7 @@ export function Home() {
               </ButtonLink>
             </div>
             <span className="studio-note">
-              Founder & CEO at{" "}
+              Backend Developer at{" "}
               <a
                 href={site.studio.url}
                 target="_blank"
