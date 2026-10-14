@@ -1,5 +1,5 @@
 export const site = {
-  name: "Muhammad Usman",
+  name: "Waqas Ali",
   title: "Software Engineer",
   socialImage: "/social-card.png",
   positioning: "Full Stack, Mobile, and AI Applications",
@@ -9,12 +9,12 @@ export const site = {
   timezone: "Asia/Karachi",
   email: "build@relnov.com",
   emailLabel: "Professional studio contact",
-  github: "https://github.com/UsmanMERN",
-  linkedin: "https://www.linkedin.com/in/mernstack-developers/",
-  previousPortfolio: "https://devusman.vercel.app",
+  github: "https://github.com/waqas-ali203",
+  linkedin: "https://www.linkedin.com/in/waqas-ali-software-engineer/",
+  previousPortfolio: "https://www.waqasthedev.com/",
   portrait: {
     src: "/media/portrait.jpeg",
-    alt: "Muhammad Usman in a dark suit, professional Relnov studio portrait",
+    alt: "Waqas Ali in a dark suit, professional Relnov studio portrait",
     width: 200,
     height: 200,
   },
@@ -22,7 +22,7 @@ export const site = {
     name: "Relnov",
     url: "https://relnov.com",
     enabled: true,
-    role: "Founder & CEO",
+    role: "Backend Developer",
     description:
       "I lead product strategy, technical direction, system architecture, and solution design at Relnov.",
   },
@@ -36,9 +36,9 @@ export const site = {
     process.env.NEXT_PUBLIC_SITE_URL ||
     "https://muhammad-usman-orbital-studio.woodsylark256.chatgpt.site",
   description:
-    "Muhammad Usman is a software engineer based in Pakistan, building full stack web applications, mobile experiences, WordPress, and AI integrations.",
+    "Waqas Ali is a software engineer based in Pakistan, building full stack web applications, mobile experiences, WordPress, and AI integrations.",
   intro:
-    "I'm Muhammad Usman, a software engineer based in Pakistan. I’m the founder of Relnov, building across web, mobile, and integrations. From live football apps to commerce platforms, I connect thoughtful interfaces with the systems behind them.",
+    "I'm Waqas Ali, a software engineer based in Pakistan. I’m the working as a Backend developer, building across web, mobile, and integrations. From live football apps to commerce platforms, I connect thoughtful interfaces with the systems behind them.",
   features: { live3d: true, analytics: false },
   budgets: [
     "Not decided yet",
@@ -219,7 +219,7 @@ export const experience = [
     dates: "Jan 2025 – Jun 2025",
     responsibility:
       "Delivered structured training in advanced web development and guided students through project-based learning architectures.",
-    source: "https://devusman.vercel.app/about",
+    source: "https://www.waqasthedev.com/",
   },
   {
     role: "MERN Stack Instructor",
@@ -227,7 +227,7 @@ export const experience = [
     dates: "Jan 2024 – Jan 2025",
     responsibility:
       "Taught full-stack development concepts and mentored beginner and intermediate developers in industry practices.",
-    source: "https://devusman.vercel.app/about",
+    source: "https://www.waqasthedev.com/",
   },
   {
     role: "Full Stack Developer",
@@ -235,6 +235,6 @@ export const experience = [
     dates: "Jul 2023 – Jan 2025",
     responsibility:
       "Developed full-stack web applications, APIs, and frontend systems for global clients.",
-    source: "https://devusman.vercel.app/about",
+    source: "https://www.waqasthedev.com/",
   },
 ];

@@ -94,7 +94,6 @@ export const projects: Project[] = [
     scope: "Mobile application",
     color: "#c5ff67",
     sources: [
-      "https://devusman.vercel.app/projects",
       "https://www.relnov.com/work/yacine-shoot",
     ],
   },
@@ -157,7 +156,6 @@ export const projects: Project[] = [
     scope: "Mobile media player",
     color: "#c5ff67",
     sources: [
-      "https://devusman.vercel.app/projects",
       "https://www.relnov.com/work/ypro-viewer",
     ],
   },
@@ -225,7 +223,6 @@ export const projects: Project[] = [
     scope: "Pet services marketplace",
     color: "#c5ff67",
     sources: [
-      "https://devusman.vercel.app/projects",
       "https://www.relnov.com/work/barkopets",
       "https://www.barkopets.com/",
     ],
@@ -292,7 +289,6 @@ export const projects: Project[] = [
     scope: "Sustainable commerce",
     color: "#c5ff67",
     sources: [
-      "https://devusman.vercel.app/projects",
       "https://www.relnov.com/work/nubambu",
       "https://www.nubambu.com/",
     ],

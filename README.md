@@ -1,4 +1,4 @@
-# Muhammad Usman / Orbital Engineering Studio
+# Waqas Ali / Orbital Engineering Studio
 
 A complete Next.js App Router portfolio with a procedural titanium orbital sculpture and planet core, responsive editorial layouts, and three local engineering experiments. The visual direction incorporates the owner's interest in outer space without compromising readable content.
 

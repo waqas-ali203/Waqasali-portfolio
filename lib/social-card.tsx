@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { site } from "@/content/site";
 export const dynamic = "force-static";
-export const alt = "Muhammad Usman / Orbital Engineering Studio";
+export const alt = "Waqas Ali / Orbital Engineering Studio";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export default function Image() {

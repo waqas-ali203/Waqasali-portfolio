@@ -2,13 +2,6 @@
 
 Six public case studies are supported by Muhammad Usman’s previous portfolio and Relnov’s case-study pages, inspected on 12 October 2026. The user explicitly confirmed ownership of Relnov. Projects, links, roles, technologies, and case-study content are centrally editable in `projects.ts`; profile, studio, experience, education, and portrait are in `site.ts`.
 
-## Sources used
-
-- Previous portfolio: https://devusman.vercel.app/about and https://devusman.vercel.app/projects
-- Founder role: https://www.relnov.com/about
-- Project source links are retained with each project record in `projects.ts`.
-- Previous portfolio portrait: https://devusman.vercel.app/image.png (275 × 275). It is retained as an original asset. The owner subsequently selected the professional studio portrait instead; no generated face or fabricated high-resolution detail is used.
-- The selected public studio portrait is `/media/portrait.jpeg` (200 × 200), from https://www.relnov.com/profiles/usman.jpeg and identified by the studio About page. It displays at 176–200 CSS pixels on Home and About.
 
 ## Image provenance
 

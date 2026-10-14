@@ -5,7 +5,7 @@ import { site } from "@/content/site";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "Contact",
-  "Tell Muhammad Usman what you are building. Prepare an inquiry or reach out through the professional studio contact.",
+  "Tell Waqas Ali what you are building. Prepare an inquiry or reach out through the professional studio contact.",
   "/contact",
 );
 export default function ContactPage() {
